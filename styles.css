@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html {
+    background-image: url("moroccan-flower.png");
+}
+header {
+    background-color: white;
+    border-bottom: 3px solid #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1 {
+    display: inline-block;
+    background-color: teal;
+    color: white;
+    padding: 0 20px 0 20px;
+}
+nav {
+    width: 45%;
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    color: teal;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+section {
+    background-color: white;
+    padding: 20px;
+    width: 35%;
+    display: inline-block;
+}
+aside {
+    vertical-align: top;
+    display: inline-block;
+    background-color: white;
+    width: auto;
+    padding: 20px;
+    margin-left: 20px;
+    height: fit-content;
+}
+footer {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-top: 3px solid #333;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+p {
+    padding: 5px;
+    line-height: 130%;
+}
+.headshot {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+h2,h3 {
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+img,p {
+    padding-top: 10px;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+}
+.linkedin {
+    padding-left: 10px;
+    padding-right: 10px;
+}
